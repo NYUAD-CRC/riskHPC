@@ -41,7 +41,8 @@
 Run the test pipeline using:
 
 ```bash
-python test.py
+python test.py --y "memory_efficiency_%"  
+python test.py --y "%_UtilisedTime"
 ```
 
 ## Project Structure
