@@ -1,0 +1,9 @@
+category-encoders==2.9.0
+choreographer==1.3.0
+imbalanced-learn==0.14.2
+imblearn==0.0
+kaleido==1.3.0
+logistro==2.0.1
+orjson==3.11.9
+simplejson==4.1.1
+sklearn-compat==0.1.6
