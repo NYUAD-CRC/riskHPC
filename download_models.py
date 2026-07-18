@@ -6,8 +6,8 @@ def downloadModel(url, write_path):
         os.makedirs(write_path)
     response = requests.get(url, stream=True)
     response.raise_for_status()
-    filename = url.split("/")[-1]
-    with open(write_path, "wb") as f:
+    filename = os.path.basename(url)
+    with open(os.path.join(write_path, filename), "wb") as f:
         for chunk in response.iter_content(chunk_size=1024 * 1024):
             if chunk:
                 f.write(chunk)
