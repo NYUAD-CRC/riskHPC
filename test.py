@@ -303,7 +303,7 @@ if __name__ == "__main__":
     args = argparse.ArgumentParser()
     args.add_argument('--data_path', type=str, default='./test.csv')
     args.add_argument('--y', type=str, help='Target variable for regression (eg. %_UtilisedTime, memory_efficiency_%)', required=True)
-    args.add_argument('--dump_path', type=str, default='./results')
+    args.add_argument('--dump_path', type=str, default='./')
     args = args.parse_args()
     df_data = pd.read_csv(args.data_path)
     if args.y=='memory_efficiency_%':
