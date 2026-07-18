@@ -7,3 +7,4 @@ logistro==2.0.1
 orjson==3.11.9
 simplejson==4.1.1
 sklearn-compat==0.1.6
+requests>=2.0
