@@ -1,6 +1,9 @@
+import os
 import requests
 
 def downloadModel(url, write_path):
+    if not os.path.exists(write_path):
+        os.makedirs(write_path)
     response = requests.get(url, stream=True)
     response.raise_for_status()
     filename = url.split("/")[-1]
