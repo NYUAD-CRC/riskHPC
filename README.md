@@ -41,10 +41,14 @@
 Run the test pipeline using:
 
 ```bash
-python test.py --y "memory_efficiency_%"  
+python test.py --y "memory_efficiency_%"
+```
+This gives the results on test data for memory efficiency.
+
+```bash
 python test.py --y "%_UtilisedTime"
 ```
-
+This gives the results on test data for compute time utilisation.
 ## Project Structure
 
 ```text
