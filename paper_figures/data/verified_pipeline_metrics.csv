@@ -1,0 +1,11 @@
+Branch,Metric,Value
+Memory,Weighted recall,61.33
+Memory,Weighted precision,81.55
+Memory,Under-provisioning,1.98
+Memory,Reduction Config 1,73.0
+Memory,Reduction Config 2,44.25
+Compute time,Weighted recall,84.06
+Compute time,Weighted precision,97.64
+Compute time,Under-provisioning,0.43
+Compute time,Reduction Config 1,79.25
+Compute time,Reduction Config 2,66.0

@@ -1,0 +1,7 @@
+Split,Metric,Value
+Validation,Accuracy,97.4
+Validation,Recall,98.51
+Validation,Precision,94.23
+Pipeline,Accuracy,94.47
+Pipeline,Recall,96.4
+Pipeline,Precision,91.53

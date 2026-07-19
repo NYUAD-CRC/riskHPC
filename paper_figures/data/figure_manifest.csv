@@ -1,0 +1,9 @@
+Figure,Output file,Input data,Public computation status
+1,fig1_workflow.pdf,Workflow labels and policy structure,Recreated from the method description
+2,fig2_jubail_utilization_nature.pdf,fig2_jubail_utilization.csv,Regenerated from de-identified aggregate values; raw development trace is private
+3,fig3_models_gate_nature.pdf,fig3_model_mae.csv; verified_classification_metrics.csv,Regenerated from frozen development and held-out summaries
+4,fig4_operating_modes_nature.pdf,verified_operating_modes.csv,Regenerated from frozen validation summaries
+5,fig5_pipeline_summary_column.pdf,verified_pipeline_metrics.csv,Regenerated from frozen held-out summaries; public pipeline also recomputes corresponding metrics
+6,fig6_frontier_nature.pdf,verified_operating_modes.csv,Regenerated from frozen validation summaries
+7,fig7_account_holdout_column.pdf,fig7_account_holdout.csv,Regenerated from de-identified held-out account summaries
+8,fig8_confusion_compact_nature.pdf,fig8_memory_confusion.csv; fig8_walltime_confusion.csv,Regenerated from frozen confusion matrices

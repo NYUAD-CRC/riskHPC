@@ -1,0 +1,5 @@
+Model,Memory,Wall time
+RF,2.75,1.41
+LGBM,2.98,1.53
+XGB,2.98,1.48
+Linear,3.44,10.19

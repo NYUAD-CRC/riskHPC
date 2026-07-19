@@ -1,0 +1,17 @@
+resource,mode,account,reduction_pct
+memory,direct,gencore,85
+memory,direct,psychology,76
+memory,direct,ecomputer,67
+memory,direct,cgsb,64
+memory,safer,gencore,75
+memory,safer,psychology,47
+memory,safer,ecomputer,29
+memory,safer,cgsb,27
+wall_time,direct,psychology,95
+wall_time,direct,gencore,87
+wall_time,direct,cgsb,51
+wall_time,direct,ecomputer,87
+wall_time,safer,psychology,90
+wall_time,safer,gencore,74
+wall_time,safer,cgsb,28
+wall_time,safer,ecomputer,74

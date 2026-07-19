@@ -1,0 +1,83 @@
+{
+  "repository": "https://github.com/NYUAD-CRC/rareHPC",
+  "model_release": "https://github.com/NYUAD-CRC/rareHPC/releases/tag/v1.0",
+  "model_release_commit": "60af92f",
+  "public_test_trace": {
+    "rows": 26591,
+    "encoded_users": 109,
+    "account_labels": 25,
+    "eligible_rows_after_history_filter": 24461,
+    "eligible_users_after_history_filter": 4,
+    "eligible_accounts_after_history_filter": 4,
+    "start_utc": "2024-01-17T04:02:09Z",
+    "end_utc": "2024-01-24T04:02:03Z"
+  },
+  "functional_pipeline": {
+    "classification": {
+      "accuracy_pct": 94.47,
+      "recall_pct": 96.4,
+      "precision_pct": 91.53,
+      "tolerance_pct_points": 0.1
+    },
+    "memory": {
+      "weighted_recall_pct": 60.97,
+      "weighted_precision_pct": 80.65,
+      "under_provisioning_pct": 2.0,
+      "direct_account_mean_reduction_pct": 73.0,
+      "safer_account_mean_reduction_pct": 44.5,
+      "tolerance_pct_points": 0.5
+    },
+    "wall_time": {
+      "weighted_recall_pct": 84.15,
+      "weighted_precision_pct": 97.71,
+      "under_provisioning_pct": 0.44,
+      "direct_account_mean_reduction_pct": 80.0,
+      "safer_account_mean_reduction_pct": 66.5,
+      "tolerance_pct_points": 0.5
+    }
+  },
+  "scope": {
+    "publicly_reexecuted": [
+      "processed held-out trace validation",
+      "selective-gate inference",
+      "memory-utilization inference",
+      "wall-time-utilization inference",
+      "direct and safer bucket recommendations",
+      "held-out branch metrics and operational plots"
+    ],
+    "regenerated_from_frozen_aggregates": [
+      "all eight paper figures",
+      "model-family MAE summary",
+      "development-split gate summary",
+      "validation operating-mode summary",
+      "validation confusion matrices"
+    ],
+    "not_publicly_reproduced": [
+      "preprocessing of the 2.1-million-job production development trace",
+      "model training and hyperparameter selection",
+      "development and validation metrics recomputed from raw production logs"
+    ]
+  },
+  "archive": {
+    "doi": "10.5281/zenodo.21439797",
+    "url": "https://doi.org/10.5281/zenodo.21439797",
+    "github": "https://github.com/NYUAD-CRC/rareHPC",
+    "version": "1.0"
+  },
+  "paper_summary": {
+    "memory": {
+      "weighted_recall_pct": 61.33,
+      "weighted_precision_pct": 81.55,
+      "under_provisioning_pct": 1.98,
+      "direct_account_mean_reduction_pct": 73.0,
+      "safer_account_mean_reduction_pct": 44.25
+    },
+    "wall_time": {
+      "weighted_recall_pct": 84.06,
+      "weighted_precision_pct": 97.64,
+      "under_provisioning_pct": 0.43,
+      "direct_account_mean_reduction_pct": 79.25,
+      "safer_account_mean_reduction_pct": 66.0
+    }
+  }
+}

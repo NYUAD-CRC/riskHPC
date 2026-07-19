@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "rareHPC: Risk-Aware Resource Recommendation Test Pipeline for Production HPC"
+message: "Please cite the archived rareHPC artifact using the metadata below."
+type: software
+authors:
+  - family-names: Mannem
+    given-names: Karunakar Reddy
+  - family-names: Jhala
+    given-names: Dhanu Vardhan Singh
+  - family-names: Zia
+    given-names: Waqqas
+  - family-names: Saleh
+    given-names: Mennatallah Samier
+  - family-names: Al Barwani
+    given-names: Muataz
+version: "1.0"
+doi: 10.5281/zenodo.21439797
+repository-code: "https://github.com/NYUAD-CRC/rareHPC"
+url: "https://doi.org/10.5281/zenodo.21439797"
+date-released: 2026-07-19
