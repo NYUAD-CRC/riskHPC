@@ -1,4 +1,4 @@
-name: riskHPC
+name: rareHPC
 channels:
   - conda-forge
   - defaults
