@@ -9,7 +9,7 @@
 
    ```bash
    git clone https://github.com/NYUAD-CRC/rareHPC.git
-   cd riskHPC
+   cd rareHPC
    ```
 
 2. Create the Conda environment:
