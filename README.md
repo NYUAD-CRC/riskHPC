@@ -1,6 +1,6 @@
 # riskHPC
 
-`riskHPC` is a project for running the test pipeline using a preconfigured Conda environment and pre-trained machine learning models.
+`rareHPC` is a project for running the test pipeline using a preconfigured Conda environment and pre-trained machine learning models.
 
 
 ## Installation
