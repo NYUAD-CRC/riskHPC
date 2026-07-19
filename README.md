@@ -8,7 +8,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/NYUAD-CRC/riskHPC.git
+   git clone https://github.com/NYUAD-CRC/rareHPC.git
    cd riskHPC
    ```
 
